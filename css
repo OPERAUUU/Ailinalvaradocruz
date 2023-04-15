@@ -1,0 +1,77 @@
+/* Paleta de colores */
+:root {
+  --color-rosa: #ff69b4;
+  --color-rosa-claro: #ffe0e6;
+  --color-gris: #444444;
+  --color-blanco: #ffffff;
+}
+
+/* Tipografía */
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: var(--color-gris);
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-rosa);
+}
+
+a {
+  color: var(--color-rosa);
+}
+
+/* Estilos de secciones */
+#inicio {
+  background-color: var(--color-rosa-claro);
+  padding: 100px 0;
+  text-align: center;
+}
+
+#quienes-somos {
+  background-color: var(--color-blanco);
+  padding: 50px 0;
+}
+
+#servicios {
+  background-color: var(--color-rosa-claro);
+  padding: 50px 0;
+}
+
+#contacto {
+  background-color: var(--color-blanco);
+  padding: 50px 0;
+}
+
+/* Estilos de tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid var(--color-gris);
+}
+
+th {
+  background-color: var(--color-rosa-claro);
+  font-size: 18px;
+}
+
+td {
+  font-size: 16px;
+}
+
+/* Estilos de formulario */
+form {
+  margin-top: 30px;
+}
+
+label {
+  display: block;
